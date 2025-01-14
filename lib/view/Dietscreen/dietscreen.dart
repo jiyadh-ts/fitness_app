@@ -285,6 +285,7 @@ class _DietscreenState extends State<Dietscreen> {
             ),
           ),
         ),
+        SizedBox(height:20),
       ],
     );
   }

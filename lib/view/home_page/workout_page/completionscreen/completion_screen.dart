@@ -1,9 +1,12 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fitness_app/controller/Firebase_controller.dart';
 import 'package:fitness_app/view/bottomnavigation/bottomnavigationbar_page.dart';
 import 'package:flutter/material.dart';
 import 'package:fitness_app/utils/colorconstraints.dart';
 import 'package:lottie/lottie.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-class CompletionScreen extends StatelessWidget {
+class CompletionScreen extends StatefulWidget {
   final int totalTimeInSeconds;
   final double caloriesBurned;
 
@@ -13,7 +16,27 @@ class CompletionScreen extends StatelessWidget {
     required this.caloriesBurned,
   }) : super(key: key);
 
-  /// Helper method to format seconds into mm:ss
+  @override
+  _CompletionScreenState createState() => _CompletionScreenState();
+}
+
+class _CompletionScreenState extends State<CompletionScreen> {
+  late String email;
+  final FirebaseController firebaseController = FirebaseController();
+
+  @override
+  void initState() {
+    super.initState();
+    _loadEmailFromPreferences();
+  }
+
+  Future<void> _loadEmailFromPreferences() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    setState(() {
+      email = (prefs.getString('emailAddress') ?? 'Unknown');
+    });
+  }
+
   String _formatTime(int seconds) {
     int minutes = seconds ~/ 60;
     int remainingSeconds = seconds % 60;
@@ -22,8 +45,8 @@ class CompletionScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String formattedTime = _formatTime(totalTimeInSeconds);
-    String formattedCalories = caloriesBurned.toStringAsFixed(1);
+    String formattedTime = _formatTime(widget.totalTimeInSeconds);
+    String formattedCalories = widget.caloriesBurned.toStringAsFixed(1);
 
     return Scaffold(
       appBar: AppBar(
@@ -92,10 +115,22 @@ class CompletionScreen extends StatelessWidget {
 
               // Button to Go Back or Restart
               ElevatedButton(
-                onPressed: () {
+                onPressed: () async {
+                  // Use the email retrieved from SharedPreferences
+                  await firebaseController.addWorkoutDetails(
+                    emailId: email,
+                    workoutData: {
+                      "Date": DateTime.now().toIso8601String(),
+                      "timetaken": formattedTime,
+                      "caloriesburnt": formattedCalories,
+                    },
+                  );
+
                   // Navigate back to Home or Restart Workout
-                  Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>BottomNavbarScreen()));
-                   // Update route as needed
+                  Navigator.pushReplacement(
+                    context, 
+                    MaterialPageRoute(builder: (context) => BottomNavbarScreen())
+                  );  // Update route as needed
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colorconstraints.Mainblue,

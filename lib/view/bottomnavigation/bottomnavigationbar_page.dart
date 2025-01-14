@@ -50,7 +50,7 @@ class _BottomNavbarScreenState extends State<BottomNavbarScreen> {
         itemCount: iconList.length,
         tabBuilder: (int index, bool isActive) {
           final color =
-              isActive ? colors.primary : colors.onSurface.withOpacity(0.5);
+              isActive ? colors.primary : colors.onSurface.withValues();
           return Icon(
             iconList[index],
             size: 24,

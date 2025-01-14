@@ -1,12 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:fitness_app/view/bottomnavigation/bottomnavigationbar_page.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:fitness_app/view/bottomnavigation/bottomnavigationbar_page.dart';
 
 class LoginScreenController with ChangeNotifier {
-  Future<void> onLogin(
-      {required String emailAddress,
-      required String password,
-      required BuildContext context}) async {
+  Future onLogin({
+    required String emailAddress,
+    required String password,
+    required BuildContext context,
+  }) async {
     try {
       final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: emailAddress,
@@ -14,22 +16,90 @@ class LoginScreenController with ChangeNotifier {
       );
 
       if (credential.user != null) {
-        // Navigate to the home screen or another page after login
-        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>BottomNavbarScreen())); // Replace '/home' with your actual route
+        SharedPreferences prefs = await SharedPreferences.getInstance();
+        await prefs.setString('emailAddress', emailAddress);
+
+        if (context.mounted) {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(
+              builder: (context) => BottomNavbarScreen(),
+            ),
+          );
+        }
       }
     } on FirebaseAuthException catch (e) {
-      if (e.code == 'user-not-found') {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('No user found for that email.')),
-        );
-      } else if (e.code == 'wrong-password') {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Wrong password provided.')),
+      print('FirebaseAuthException Code: ${e.code}');
+      
+      if (!context.mounted) return;
+
+      String errorMessage;
+      switch (e.code) {
+        case 'user-not-found':
+          errorMessage = 'No user found for that email.';
+          break;
+        case 'wrong-password':
+          errorMessage = 'Wrong password provided.';
+          break;
+        case 'invalid-email':
+          errorMessage = 'The email address is badly formatted.';
+          break;
+        case 'user-disabled':
+          errorMessage = 'This user account has been disabled.';
+          break;
+        case 'too-many-requests':
+          errorMessage =
+              'Too many failed login attempts. Please try again later.';
+          break;
+        case 'invalid-credential':
+          errorMessage = 'Invalid email or password. Please check your credentials and try again.';
+          break;
+        default:
+          errorMessage = 'An error occurred. Please try again.';
+      }
+
+      if (context.mounted) {
+        await showDialog(
+          context: context,
+          barrierDismissible: true,
+          builder: (BuildContext context) {
+            return AlertDialog(
+              title: Text('Login Error'),
+              content: Text(errorMessage),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: Text('OK'),
+                ),
+              ],
+            );
+          },
         );
       }
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('An error occurred. Please try again.')),
+      print('General Exception: $e');
+      
+      if (!context.mounted) return;
+
+      await showDialog(
+        context: context,
+        barrierDismissible: true,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('Error'),
+            content: Text('An unexpected error occurred. Please try again.'),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: Text('OK'),
+              ),
+            ],
+          );
+        },
       );
     }
   }

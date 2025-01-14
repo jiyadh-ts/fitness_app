@@ -1,4 +1,5 @@
 import 'package:fitness_app/controller/Registration_controller.dart';
+import 'package:fitness_app/view/login__screen/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -231,7 +232,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   ),
                   TextButton(
                       onPressed: () {
-                        // Navigate to login screen
+                        Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>LoginScreen()));
                       },
                       child: Text(
                         "Sign In",

@@ -246,7 +246,7 @@ class Dummydb {
       'time': '45s',
       'image':
           'https://4.bp.blogspot.com/-jWrahmsX1qo/VpsHYmGsjRI/AAAAAAAAAlA/N8b0MlYvN2s/s400/jumping-jacks-exercise-illustration.jpg',
-      'video': 'https://www.youtube.com/watch?v=jumping-jacks-tutorial',
+      'video': 'https://youtu.be/yDSMdd8hiFg?si=hZ_1gDMDbmaY9bsY',
     },
     {
       'workoutName': 'High Knees',
@@ -254,7 +254,7 @@ class Dummydb {
       'time': '60s',
       'image':
           'https://th.bing.com/th/id/OIP.t3itanAra5lasrSSr9aCDgHaE8?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=high-knees-guide',
+      'video': 'https://youtu.be/DfjpR6dzLVg?si=1ivByAj3H6EIPtxU',
     },
     {
       'workoutName': 'Mountain Climbers',
@@ -262,7 +262,7 @@ class Dummydb {
       'time': '60s',
       'image':
           'https://th.bing.com/th/id/OIP.bKACI08iUIz6p_cmjTsLdwHaE8?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=mountain-climbers-tutorial',
+      'video': 'https://youtu.be/kLh-uczlPLg?si=GTKJOcw1uzs4kO_q',
     },
     {
       'workoutName': 'Burpees',
@@ -270,14 +270,14 @@ class Dummydb {
       'time': '120s',
       'image':
           'https://th.bing.com/th/id/OIP.LtZhcMbkjo8CL6C4AM-EkgHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=burpees-proper-form',
+      'video': 'https://youtu.be/xQdyIrSSFnE?si=8WEcuJxYn686fNS_',
     },
     {
       'workoutName': 'Rest',
       'time': '1 min',
       'image':
           'https://c8.alamy.com/comp/2B20TFE/woman-resting-after-fitness-workout-with-towel-arounfd-her-neck-isolated-over-white-2B20TFE.jpg',
-      'video': 'https://www.youtube.com/watch?v=active-recovery-tips',
+      'video': 'https://youtu.be/PUJpU6Ti5jU?si=Vdf8PE2mYkyhfWh8',
     },
     {
       'workoutName': 'Squat Jumps',
@@ -285,7 +285,7 @@ class Dummydb {
       'time': '120s',
       'image':
           'https://i.pinimg.com/originals/78/18/fb/7818fb12ebca780b1c68af585587e5af.png',
-      'video': 'https://www.youtube.com/watch?v=squat-jumps-guide',
+      'video': 'https://youtu.be/BRfxI2Es2lE?si=pn0_xXW3Ee8xmLTa',
     },
     {
       'workoutName': 'Butt Kicks',
@@ -293,7 +293,7 @@ class Dummydb {
       'time': '180s',
       'image':
           'https://th.bing.com/th/id/OIP.Ld0GEof5RkMwis8GTcQn1QHaE8?w=266&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=butt-kicks-tutorial',
+      'video': 'https://youtu.be/lVZi-AwxLPo?si=LZnWHy2aKuBOQCOR',
     },
     {
       'workoutName': 'Skater Jumps',
@@ -301,7 +301,7 @@ class Dummydb {
       'time': '180s',
       'image':
           'https://th.bing.com/th/id/OIP.FcDV1HdOxewLEEVrjQyFGQHaE8?rs=1&pid=ImgDetMain',
-      'video': 'https://www.youtube.com/watch?v=skater-jumps-guide',
+      'video': 'https://youtu.be/Xz27DudBfSs?si=L3Xd-zYf4K9ZfSi9',
     },
     {
       'workoutName': 'Plank Jacks',
@@ -309,14 +309,14 @@ class Dummydb {
       'time': '120s',
       'image':
           'https://th.bing.com/th/id/OIP.kEMNSOf3e15S89e16CPDjgAAAA?w=286&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=plank-jacks-tutorial',
+      'video': 'https://youtu.be/8Do3ssZ23Mc?si=MbqLvn0bZrW_Laxq',
     },
     {
       'workoutName': 'Rest',
       'time': '1 min',
       'image':
           'https://c8.alamy.com/comp/2B20TFE/woman-resting-after-fitness-workout-with-towel-arounfd-her-neck-isolated-over-white-2B20TFE.jpg',
-      'video': 'https://www.youtube.com/watch?v=recovery-stretches',
+      'video': 'https://youtu.be/PUJpU6Ti5jU?si=Vdf8PE2mYkyhfWh8',
     },
     {
       'workoutName': 'Lunges',
@@ -324,7 +324,7 @@ class Dummydb {
       'time': '120s',
       'image':
           'https://th.bing.com/th/id/OIP.A4MCcCIlnZW7kYIZXU50tQAAAA?rs=1&pid=ImgDetMain',
-      'video': 'https://www.youtube.com/watch?v=lunges-proper-form',
+      'video': 'https://youtu.be/tTej-ax9XiA?si=EpjhBYSoxHxWbeUN',
     },
     {
       'workoutName': 'Tuck Jumps',
@@ -332,7 +332,7 @@ class Dummydb {
       'time': '60s',
       'image':
           'https://thumbs.dreamstime.com/z/man-doing-knee-tuck-jumps-exercise-flat-vector-man-doing-knee-tuck-jumps-exercise-flat-vector-illustration-isolated-white-249927458.jpg',
-      'video': 'https://www.youtube.com/watch?v=tuck-jumps-guide',
+      'video': 'https://youtu.be/mgBCOVR1hqw?si=ZPuRNDj3CQuhRsk_',
     },
     {
       'workoutName': 'Push-Up Jacks',
@@ -340,7 +340,7 @@ class Dummydb {
       'time': '60s',
       'image':
           'https://4.bp.blogspot.com/-jWrahmsX1qo/VpsHYmGsjRI/AAAAAAAAAlA/N8b0MlYvN2s/s400/jumping-jacks-exercise-illustration.jpg',
-      'video': 'https://www.youtube.com/watch?v=pushup-jacks-tutorial',
+      'video': 'https://youtu.be/8uqIred6RkQ?si=NY8RqhDL93LMzrD4',
     },
     {
       'workoutName': 'Jump Rope',
@@ -348,7 +348,7 @@ class Dummydb {
       'time': '120s',
       'image':
           'https://th.bing.com/th/id/OIP.02cmyNgyTIavifnA0z5JuAHaE8?rs=1&pid=ImgDetMain',
-      'video': 'https://www.youtube.com/watch?v=jump-rope-techniques',
+      'video': 'https://youtu.be/wqN5bRkZPK0?si=Om62xdIG28kyJt43',
     },
   ];
   static List<Map<String, dynamic>> gymWorkouts = [
@@ -418,7 +418,7 @@ class Dummydb {
       'sets': 'x3',
       'image':
           'https://th.bing.com/th/id/OIP.xrqj8EgWRn2pQnexSxkv6AHaE8?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=leg-press-tutorial',
+      'video': 'https://youtube.com/shorts/wa9UCsNWVo0?si=-QWF0-_sUfZlHVfV',
       'timePerSet': 60,
       'caloriesPerMinute': 8.0,
     },
@@ -428,7 +428,7 @@ class Dummydb {
       'sets': 'x3',
       'image':
           'https://th.bing.com/th/id/OIP.36qntTswUkXuDd-NSdSACAHaE8?w=274&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=shoulder-press-guide',
+      'video': 'https://youtube.com/shorts/4GkqruTC3F4?si=zGjtc3YM2LfRq4N1',
       'timePerSet': 50,
       'caloriesPerMinute': 8.0,
     },
@@ -438,7 +438,7 @@ class Dummydb {
       'sets': 'x4',
       'image':
           'https://th.bing.com/th/id/OIP.u1KOl33IRTM59BuvCNtGrAHaE8?w=272&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=lat-pulldown-tutorial',
+      'video': 'https://youtu.be/SALxEARiMkw?si=sucndCMO8GsHu67F',
       'timePerSet': 60,
       'caloriesPerMinute': 8.0,
     },
@@ -448,7 +448,7 @@ class Dummydb {
       'sets': 'x3',
       'image':
           'https://th.bing.com/th/id/OIP.eqIezeEarnBAQ_0jhafacgHaEX?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=chest-fly-proper-form',
+      'video': 'https://youtube.com/shorts/Jz7oEmzhnfE?si=_p7Rp_tdB3PSmh77',
       'timePerSet': 50,
       'caloriesPerMinute': 8.0,
     },
@@ -458,7 +458,7 @@ class Dummydb {
       'sets': 'x3',
       'image':
           'https://th.bing.com/th/id/OIP.416EeRangvExSPqTB-EJvQHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-      'video': 'https://www.youtube.com/watch?v=bicep-curl-guide',
+      'video': 'https://youtu.be/sYV-ki-1blM?si=HmlQyHcsx-XXJnNW',
       'timePerSet': 40,
       'caloriesPerMinute': 8.0,
     },
@@ -468,7 +468,7 @@ class Dummydb {
       'sets': 'x4',
       'image':
           'https://thumbs.dreamstime.com/z/man-doing-bench-triceps-dips-workout-exercise-guide-colorful-concept-guy-working-his-home-illustration-male-fitness-using-230814542.jpg',
-      'video': 'https://www.youtube.com/watch?v=tricep-dips-tutorial',
+      'video': 'https://youtu.be/6kALZikXxLc?si=XBtgWcIweNy7MyY4',
       'timePerSet': 50,
       'caloriesPerMinute': 8.0,
     },
@@ -482,7 +482,7 @@ class Dummydb {
           'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1dRhdy.img',
       'timePerSet': 90,
       'caloriesPerMinute': 9.0,
-      'video': 'https://www.example.com/deadlift-tutorial',
+      'video': 'https://youtu.be/XxWcirHIwVo?si=aKetFjHNW-Uvr0bq',
     },
     {
       'workoutName': 'Weighted Pull-Ups',
@@ -492,7 +492,7 @@ class Dummydb {
           'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCADqASQDASIAAhEBAxEB/8QAHAABAAICAwEAAAAAAAAAAAAAAAEGAwUCBAcI/8QAQxAAAQQBAgIHBAYHBQkAAAAAAAECAwQRBRIhMQYTIkFRcYEUFTJhQmKRlKHTByNScrHB0iRkhKLwJTM0VHSTs+Hx/8QAGAEBAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAjEQEAAgIBBAMAAwAAAAAAAAAAAQIDERIEBSExEyKRFEGB/9oADAMBAAIRAxEAPwD1sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADhJJHE1XyKqNTwa5y/Y1FU5mOWGOdmyTdtyi9lzmLw+bVRQOsuqaen05/SraX+EZx976d+1Y9Klv8s5JplFM/8R62rH9Y92UcKn9owvPFqxx/zgdKbpFTjk2R09TnamMyRVXoz063a78Dst1jTVajt1lMpnC07eU+S/qyvX47Va9NW9rnijkex0D98r0ZFKu1vBXccLlOZYW6PRRrEe6097WojnrasIr3ImFcqI/vIRbczCU11GxdZ0xPp2fudz8sLrWmJ9K16Urn5ZPufT/7197s/wBZPumh42vvdn+smix+/NL8bf3K5+WF1zTE77a+VK3+WZfdVL9q397s/wBZC6TQXiq21/xlr+sDgmt6Wv0rSedK5/KMe+tL4dq19yuflnL3Rp/Djb4f3y1/Wde7pcbKlp1Rba2GxK6JPa7C5c3jhEe/GRIxR9JKz5mRrp+qxxudtWaWsu1v1laxVdj0O7740xPpWfudz8sr+lw279pjXTWFqRNc6yqWZGrlzf1bEw7dx4qvl8zfe5dO/au/frmP/IQpblG0rV4zpPvrS+Pas8/+Su/lHF2uaW1FVVuYRFVcULy8vDERy9zacn0rv365+YF0fT1XObmf+tt/mE0XeikZLHHIzO2RqPbua5q4VM8WuwqfYczhFEyGOOJm7axu1u9znuwni5yqq/acwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKf0le9NRY1vFzdNinRPFYrLn49cYLXXmjswQWI1zHPEyZi/Ve3chUukPZ12uq9+kN2Z5O22XK5PTKfabTovP1mnTV1XK6fes00X6iKkzPwciehTWfvMLLR9IlvgDDYsVqkM1izNHDXhbvllmcjGMbyyrncC5WzArNbp10PtWo6kd9yOlk6qKWatYirPkVcI1JpGIzj3ZVPxLMANbrdptPTbb8/rJmpVgTkrpZ16tuMeGVX0NkVLpLM6XU9MpJnZXrSX3InJZZXrXjVfJN+PMhe3GsylSOVohn6LuRZdbjROELqLc+cCuwWYrnRKPNPUbipxu6nbc1fGGuqVY0T5dlftLGcxxqsO3ndpAAWIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0fSDTvaYobzXObLpsdl+1rUXroXtTexVXjwwjk8vmaTSdRj0yWxKrN9O51csywpl7JGt2pMjU5oqYRe/ghdl4pjGc80XvKDPWTT71zT+KMjctioi99SVct2r3o1ct9DPliazF4XY/t9JXqCevZijnryslhkbujfGuWuT/AFzK700ppqGmVKj96QSajXksK1UTMcSOfsXv4mv0m8uk2bTno9dPss62aONFe6Ky1UTrI2J3OT4sd6Z7zc6td0+5pnW1rUErc1rMfVvRXLG+TqUdt54yqpy5p8ifPlSZhHhxtqVWdTpS13U3wR+yuZ1SxI1EYjV4cETw5m96D6hZt6PJTuSOku6Ncn0uw969qRkS5ieq/NqomfkaTYrXulfPMrURyrGqt6tGonc1G/zNL0V6R2NO1zV4ZqytrarqW6ZZUkWWu6NFjz2Uxx7/ACTxKcE+9rc0eI09VvXYKFaSzNlUbhGMb8csi/DGxPFf9cimvlvajbbJM6CO5aRtWq1rF6qJyI98bHuTtKiKqqq+fDuO3q15l6xEsW7qIGK2PcmMud8T8c08P/pj0aF1jWa2OLNPhktTL3JLM3qoWL88b1O2v8luEenIrwryn2tOm026fQoUmrlK1eOJXJ9J6J2neq5X1O4AamcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVa1pDNVgj2PSC7Wc6WlY252PVMKyRO9juTk9eaG1ByY37N6efbLcSvitRsisxuWOZkT+sjRyccteqIuFTCpw7/kaaWGH33tiRY3S14ZZnM+ksSrLjHLC9nJZ+kzZKepUbCRSPg1PFZ6s+hahY5zd2eHaamE/dNI6nI53tDJUjuda+VJFYkjNr2oxYnsVUy3CInNOKZ844OjyZJtw9aQ6rr8OCKRefMy7r2o5r2rye1zV8nJg08jlTpBpcS9pK+jvqte5E37nOWdNypzXCZ9TvY1hUws2ntXveyvO5fNGPl2/wATE7Tv1Tuqlct7r/a2WZuLn2tuxOsRqY2KnZVE7vLjZj7bn88o14/WfN3npo4xSd+fyG0ho6pfV0dBIGK17WT2LDlVtdrk3bmxImXOxyTKJ4/O3aZplXS6yV4N73OcstieVUWWxMvOSRfHw8ORquirFdW1C3u3JauKxqtarWL7NG2u50eVVdquR2PkhYynHj+ONT7brZPk8xPgABagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAr3S1n+yop8ZSpqOnWHcUTDVnSFV4/vFVfZttcrY9NsSYVU3LLXjZw83Kv4Fx6Utz0e176lKSVPksSpIi+mCs8F4+PH7Tv8zJ08ap/bPft2Hq7c8u/Do+06mi8dJeqd+LtfP2Khjm1GzBDNJLpl6JzYpXMciwTwtejFVrnviflEzhOXebIxSQe12NH0/GW39RgZMnjWrItuVPVGonqcp3PPNtePxG/ZOl1MxEx/q66NU9h0rSqmMOgp12PzzWTYivVfNcmwAOzO2mI1GgAHHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGu11GronSBHfCulagi/8AYeUyDKwV1XmsMSr5qxMne/SNqU1TR6tOGRzH6la6qRzFwvs8TVke1PNdqL8ioab0opezpHqT3x2ouzmKJz0nYnKRqN5fNDNnrNojS/DaI3tZTPpMlaPXq0ll7Y2R6dJFWc9cNdatWWRq1v1sIiJ5lfXpN0dRFVbM3DjhKs2f4Ff1TX5J71OzUVUrabZr2ayPy3rnwyNer3JjPa5IngVYqWi25hZltHHUS95Biry9fBXn2Oj66KOXY/4mb2o7a7HehlNzIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADy/8ASheqyyaPpkePa6/W3pJMZWKOVOqZH4drCqv7qeJ5o9yqiNkwyRq5jf8AQVfNfEsfS217Z0m6QTJjbHaSmzC5TFWNsC/ijjRqmUVO5UwoHBH9YzLk2JydlUwqd+FQ5Nc/fE9nZSJ7JGL3q9jkcmU8OBgequi2bMKj2NVUxtwjuZnauWsX6qfwA9/6Paq3WdKp3kwkj2qydqY7MrODkwn2+ptjzD9GOoq2xrOkPXsvjj1Kv8lRUhlRP8inp4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeB6xpuopZvahHDJYr2rl2aR0Dd0kL1sSbkfG3jjwVENM1zHJ2XIuOC4Xii+Coel0VXqHr3+13+P+KlMVzTtPsbVdp1SzblkZDWbLE3Mk8i7Wo5yYXCc1+SGb55ieMtE4fG4eZ4d/aXYXYk7WI7u3tVHK38TtU4LFpWRVoZJpPhVI25RvHHacvBPVSwv0mlBp36Ua7msX3PqWmupyYwjJevWJ21ueCORVTn/AALFpDonabp7o0aidSxr9rUbiRvB6ORO9F5k8t5pG4V46cpdbohpNjSde0eexMjp7seo1HRxf7qJiQtna3djKu7K5U9XPPo3ObqfRqRF4t1eOPzbNXnjcegncVptXcmSsVtqAAFqsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQrVV1C7dqvVm6WzauwNaitR0NiV0qbUd+znDv8A2cK77Ve223E6NZI2pHXY+PcxmfjcqZzudyymOBdL+m6fqUSQ3YGytau6N2VbJE79qORqo5F8lPLeltpuj2pNH0/UL08uxsl2Sw6JXV2yJlkDJGMa9VVO07KrwVPHhlnDaLcqy0Vyxx1ZrNUsLBpvTxtuxUbc6Ra9UVtSvN10sdevO+Z8j9qcGrw2548ORaKi0rCe3U0arbcUHaiyjXJExI2qrF5Lw48M+J5dP8UDe7eqr+CZLZ0Lt049Yh02+xJKWqK6NjXOc1rLiJuYvZVPiRFavoW5KTeNbQpeKztc9PrSXtU0lse7qqNlb9l7Wo5iLHG5kcauymFVXZ7+RezHDBXrxtigijijbyZG1GtT0QyEqU4RpG9uU7AATQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD511G0+/qWr3X/ABWtQuS454b1rmsb6IiJ6H0V4HzvqlV1HVtbpPRUWtqVxqIqYzG+RZY3J8laqKgGulRVkh4cMKnku5pnbM+tJXtR5SSrYgtMwuOMMjZP5EDqpbG2tEiumsubVib4vmVIkTHqB9IxvbJHHI1UVsjGvaqLlFRyI5FRTkYq0DK1etXZ8FeGKBv7sbUYn8DKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAonTnolPqqN1bSoUfqULEjswIqNW5A34drl4b293inDuL2APnhNI6RK/q00HXd/Lb7usc/wB7G38T0HoZ0Jt0rEOs62xrLMSK6hSRWv8AZ3ORUWadyZbvx8KIvDz5ejAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAEAkAQCQBAJAEAkAQCQBAJAEAkAQCQBAJAEAkAQCQBAJAEAkAQCQBAJAEAkAQCQBAJAH/9k=',
       'timePerSet': 60,
       'caloriesPerMinute': 8.5,
-      'video': 'https://www.example.com/weighted-pullups',
+      'video': 'https://youtube.com/shorts/voVUE21ThBk?si=73JIz8LoNvxeRfLa',
     },
     {
       'workoutName': 'Barbell Squat',
@@ -502,7 +502,7 @@ class Dummydb {
           'https://th.bing.com/th/id/OIP.SFRvRpCPAwOIEWhsAXZ_QgHaDw?w=340&h=177&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       'timePerSet': 90,
       'caloriesPerMinute': 9.0,
-      'video': 'https://www.example.com/barbell-squat',
+      'video': 'https://youtu.be/gcNh17Ckjgg?si=6KSb6Sn0jDTZvM-c',
     },
     {
       'workoutName': 'Bench Press',
@@ -512,7 +512,7 @@ class Dummydb {
           'https://th.bing.com/th/id/OIP.sLxgIwv5eBD-KBnEDfwywwHaEK?w=300&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       'timePerSet': 60,
       'caloriesPerMinute': 8.0,
-      'video': 'https://www.example.com/bench-press',
+      'video': 'https://youtu.be/4Y2ZdHCOXok?si=Yokf3ue_S9sZGrgn',
     },
     {
       'workoutName': 'Incline Bench Press',
@@ -522,7 +522,7 @@ class Dummydb {
           'https://static.vecteezy.com/system/resources/previews/008/424/328/original/bench-press-exercise-man-with-muscles-coach-in-the-gym-isolated-illustration-on-white-background-vector.jpg',
       'timePerSet': 60,
       'caloriesPerMinute': 8.0,
-      'video': 'https://www.example.com/incline-bench-press',
+      'video': 'https://youtu.be/lJ2o89kcnxY?si=XxbhV58-hzuQNqMK',
     },
     {
       'workoutName': 'Bent-Over Row',
@@ -532,7 +532,7 @@ class Dummydb {
           'https://static.vecteezy.com/system/resources/previews/015/708/460/non_2x/man-doing-dumbbell-bent-over-rows-exercise-flat-illustration-isolated-on-white-background-vector.jpg',
       'timePerSet': 60,
       'caloriesPerMinute': 8.5,
-      'video': 'https://www.example.com/bent-over-row',
+      'video': 'https://youtube.com/shorts/Nqh7q3zDCoQ?si=B0oksSAlSCi7b8kd',
     },
     {
       'workoutName': 'Standing Military Press',
@@ -542,7 +542,7 @@ class Dummydb {
           'https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Standing-Barbell-Shoulder-Press_600x600.png?v=1619977694',
       'timePerSet': 50,
       'caloriesPerMinute': 8.0,
-      'video': 'https://www.example.com/military-press',
+      'video': 'https://youtu.be/z7YJnyW_maY?si=OdtXci105TDmhd6K',
     },
     {
       'workoutName': 'Barbell Shrugs',
@@ -552,7 +552,7 @@ class Dummydb {
           'https://th.bing.com/th/id/OIP.-9GRwMTEPfBBlCx1bT6amQHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       'timePerSet': 45,
       'caloriesPerMinute': 8.0,
-      'video': 'https://www.example.com/barbell-shrugs',
+      'video': 'https://youtube.com/shorts/zdBh_Ul2psI?si=2A0qjjXarghYuJCW',
     },
     {
       'workoutName': 'Romanian Deadlift',
@@ -562,7 +562,7 @@ class Dummydb {
           'https://cdn.squats.in/kc_articles/16571102077374a71d5ee0a3c6b03.png',
       'timePerSet': 60,
       'caloriesPerMinute': 8.5,
-      'video': 'https://www.example.com/romanian-deadlift',
+      'video': 'https://youtu.be/7j-2w4-P14I?si=wk-oA_96qMav4L2N',
     },
     {
       'workoutName': "Farmer's Walk",
@@ -572,7 +572,7 @@ class Dummydb {
           'https://th.bing.com/th/id/OIP.CG2U4S-DXNxMKrkHiJFnPAHaEt?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       'timePerSet': 120,
       'caloriesPerMinute': 9.0,
-      'video': 'https://www.example.com/farmers-walk',
+      'video': 'https://youtu.be/8OtwXwrJizk?si=791of040A3z0Sh9_',
     },
     {
       'workoutName': 'Weighted Dips',
@@ -582,7 +582,7 @@ class Dummydb {
           'https://th.bing.com/th/id/OIP.eFJkxRzcs6NkgngpQewGvgHaFb?w=205&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
       'timePerSet': 50,
       'caloriesPerMinute': 8.0,
-      'video': 'https://www.example.com/weighted-dips',
+      'video': 'https://youtu.be/4NkbSXfqMQk?si=-idNpYaMVZpiR25d',
     },
     {
       'workoutName': 'Overhead Squat',
@@ -592,7 +592,7 @@ class Dummydb {
           'https://thumbs.dreamstime.com/b/man-doing-dumbbell-squat-thrusters-squat-to-overhead-press-exercise-flat-vector-man-doing-dumbbell-squat-thrusters-squat-to-273993889.jpg',
       'timePerSet': 60,
       'caloriesPerMinute': 8.5,
-      'video': 'https://www.example.com/overhead-squat',
+      'video': 'https://youtu.be/7dazkuWGOa8?si=i_YoKnuXXTmOYlZy',
     },
   ];
   static List<Map<String, dynamic>> diets = [
