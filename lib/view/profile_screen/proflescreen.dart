@@ -1,3 +1,5 @@
+import 'package:fitness_app/view/profile_screen/Activities_page/Activities.dart';
+import 'package:fitness_app/view/profile_screen/Help&Support/Help&Support.dart';
 import 'package:flutter/material.dart';
 
 class ProfilePage extends StatefulWidget {
@@ -60,8 +62,8 @@ class _ProfilePageState extends State<ProfilePage> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
-                      padding:
-                          const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 20, vertical: 12),
                     ),
                   ),
                 ],
@@ -76,10 +78,14 @@ class _ProfilePageState extends State<ProfilePage> {
                     // Navigate to settings
                   }),
                   _buildListTile(Icons.history, 'Activities', () {
-                    // Navigate to activities
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Activities()));
                   }),
                   _buildListTile(Icons.help_outline, 'Help & Support', () {
-                    // Navigate to help and support
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => HelpandSupport()));
                   }),
                   _buildListTile(Icons.notifications, 'Notifications', () {
                     // Navigate to notifications
